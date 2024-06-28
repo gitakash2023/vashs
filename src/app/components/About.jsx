@@ -50,11 +50,11 @@ const About = () => {
         </Typography>
         <List sx={{ mb: 2 }}>
           <ListItem>
-            <ListItemText primary="Frontend: React, Angular, Vue.js" />
+            <ListItemText primary="Frontend: React, Next.js" />
           </ListItem>
           <Divider />
           <ListItem>
-            <ListItemText primary="Backend: Node.js, Express, Django" />
+            <ListItemText primary="Backend: Node.js, Express" />
           </ListItem>
           <Divider />
           <ListItem>

@@ -64,11 +64,13 @@ const Header = () => {
     <AppBar position="fixed" sx={{ backgroundColor: '#1976d2', mb: 8 }}>
       <Toolbar>
         {!isMobile && (
-          <Typography variant="h6" component="div">
+          <Box sx={{ display: 'flex', alignItems: 'center', mr: 2 }}>
             <Link href="/" passHref>
-              <Image src="/" alt="Logo" width={120} height={40} />
+            <Box sx={{ borderRadius: '50%', overflow: 'hidden', width: 40, height: 40 }}>
+                <Image src="/vashLogo.jpg" alt="Logo" width={40} height={40} />
+              </Box>
             </Link>
-          </Typography>
+          </Box>
         )}
         {isMobile && (
           <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }} onClick={toggleDrawer(true)}>
