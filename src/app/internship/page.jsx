@@ -47,7 +47,7 @@ const Internship = () => {
       "_blank"
     );
   };
-
+// hiii
   return (
     <Box sx={{ flexGrow: 1, p: 3 }}>
       <Typography variant="h4" sx={{ mb: 4, textAlign: "center" }}>
